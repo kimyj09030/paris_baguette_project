@@ -1,0 +1,321 @@
+@charset "utf-8";
+@import "./reset.css";
+@import "./common.css";
+​
+/* header */
+header {
+    position: fixed;
+    background: #023586;;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    height: 90px;
+    box-shadow: 0 2px 6px 0 rgb(0 0 0 / 25%);
+    z-index: 99;
+}
+​
+header .container {
+    height: 100%;
+    max-width: 1420px;
+    padding: 0 25px;
+    margin: 0 auto;
+    vertical-align: baseline;
+    color: #ffffff;
+}
+​
+.brand {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+}
+​
+.brand a {
+    font-size: 28px;
+    color: #ffffff;
+    font-weight: 500;
+    white-space: nowrap;
+    display: block;
+    text-indent: -999em;
+    overflow: hidden;
+    width: 250px;
+    height: 18px;
+    background: url(//www.paris.co.kr/wp-content/themes/paris/assets/css/../img/logo.svg) 50% 50% no-repeat;
+    cursor: pointer;
+}
+​
+.gnb-left ul li {
+    vertical-align: middle;
+    line-height: 90px;
+    float: left;
+    padding: 0 12px;
+    font-weight: bold;
+}
+.gnb-right ul li {
+    vertical-align: middle;
+    line-height: 90px;
+    float: right;
+    padding: 0 12px;
+    font-weight: bold;
+}
+​
+/* main-banner */
+​
+.pb-section-main {
+    display: block;
+    width: 100%;
+    font-size: 0;
+​
+}
+.main-banner .pb-section-main li {
+    display: inline-block;
+    width: 33.3333%
+}
+.main-banner .pb-section-main li img {
+    display: block;
+    padding: 10px 0 0 0 ;
+}
+​
+/* pb-magazine */
+​
+.pb-section .pb-section-inner {
+    padding: 80px 0;
+}
+​
+.pb-section-header {
+    /* position: relative; */
+    margin-bottom: 30px;
+    padding: 0 12px;
+}
+​
+.btn-more span {
+    display: inline-block;
+    font-weight: 700;
+    border-bottom: 2px solid #111;
+    line-height: 24px;
+}
+.pb-section .container {
+    max-width: 1420px;
+    /* padding: 0 25px; */
+    position: relative;
+    margin: 0 auto;
+}
+​
+​
+.pb-magazine .pb-section-body ul {
+    display: inline-block;
+}
+​
+.pb-magazine .pb-section-body ul li {
+    display: inline-block;
+    float: left;
+    width: 33.3333%;
+    max-width: 33.3333%;
+    padding: 12px;
+}
+.presentation-list-item {
+    position: relative;
+}
+.presentation-list-item .desc {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 24px 30px;
+    color: white;
+}
+.presentation-list-item .img img {
+    display: block;
+    width: 100%;
+}
+​
+.presentation-list-item .post-title {
+    font-size: 28px;
+    line-height: 1.25;
+    margin-bottom: 16px;
+}
+​
+.presentation-list-item .post-excerpt {
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.5;
+}
+​
+/* pb-story */
+​
+.pb-section .pb-section-header h2 {
+    font-size: 24px;
+    float: left;
+    display: inline-block;
+    width: 93%;
+    white-space: nowrap;
+}
+​
+.bread-now-list ul {
+    display: inline-block;
+}
+​
+.bread-now-list ul li {
+    display: inline-block;
+    width: 50%;
+    float: left;
+}
+.bread-now-list-item {
+    margin-bottom: 36px;
+}
+.bread-now-list-item a {
+    display: inline-block;
+    width: 50%;
+}
+.bread-now-list-item .desc {
+    float: right;
+    width: 50%;
+    padding-left: 30px;
+}
+.bread-now-list-item .desc .post-category {
+    color: #023586;
+    margin-bottom: 20px;
+}
+​
+.bread-now-list-item .desc .post-title {
+    white-space: nowrap;
+    font-size: 1.5rem;
+    font-weight: bolder;
+    margin-bottom: 20px;
+}
+​
+.bread-now-list-item .desc .post-excerpt {
+    font-size: small;
+    white-space: nowrap;
+    margin-bottom: 20px;
+}
+​
+/* promotion */
+​
+.product-list {
+    display: inline-block
+}
+​
+.product-list .product-list-item {
+    display: inline-block;
+    width: 25%;
+    float: left;
+    padding-right: 25px;
+    position: relative;
+}
+​
+.product-list .product-list-item span {
+    color: #023586;
+    display: inline-block;
+    margin-top: 20px;
+    font-weight: bold;
+}
+.product-list .product-list-item h3 {
+    margin-top: 20px;
+    font-weight: bold;
+}
+.product-list .product-list-item a {
+    display: inline-block;
+    margin-top: 20px;
+    font-size: small;
+    font-weight: bold;
+    color: #888888;
+}
+​
+.progress h4 {
+    display: inline-block;
+    background: #023586;
+    color: white;
+    font-size: 10px;
+    padding: 4px 8px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+/* products */
+​
+.product-list-more {
+    font-size: 0;s
+    
+}
+.product-list-item-more {
+    display: inline-block;
+    width: 20%;
+    padding: 12px;
+}
+​
+.product-list-item-more .img {
+    padding: 20px;
+}
+​
+.product-list-item-more span {
+    font-weight: bold;
+    font-size: 14px;
+}
+​
+.product-list-item-more h4 {
+    color: #888888;
+    padding-top: 10px;
+}
+​
+​
+/* instagram */
+​
+.pb-instagram .pb-section-header {
+    text-align: center;
+}
+​
+.pb-section-header small {
+    font-size: 14px;
+    margin-top: 14px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+.instagram-feed-list {
+    font-size: 0;
+    padding-bottom: 80px;
+}
+​
+.instagram-feed-list-item {
+    display: inline-block;
+    width: 16.6666%;
+}
+/* banner */
+.pb-home-banner {
+    font-size: 0;
+}
+.pb-home-banner-item {
+    display: inline-block;
+    width: 33.3333%;
+    font-size: 0.8rem;
+    position: relative;
+    height: 50px;
+    vertical-align: top;
+}
+.pb-home-banner-item {
+    padding: 40px;
+}
+​
+.pb-home-banner-item:nth-child(1),
+.pb-home-banner-item:nth-child(2) {
+    border-right: 1px solid #023586;
+    height: 100px;
+}
+.pb-home-banner-item i {
+    position: absolute;
+    top: 50%;
+    right: 10%;
+    font-size: 40px;
+}
+.pb-home-banner-item h3 {
+    color: #1e73be;
+    margin-bottom: 10px;
+    font-weight: bold;
+    font-size: small;
+}
+.pb-home-banner-item h2 {
+    color: #515151;
+}
+​
